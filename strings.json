@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to InvenTree",
+        "description": "Enter your InvenTree server details.",
+        "data": {
+          "url": "InvenTree URL (e.g. http://inventree.local:8000)",
+          "api_key": "API Key",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to InvenTree. Check your URL.",
+      "invalid_auth": "Invalid API key.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "InvenTree is already configured."
+    }
+  }
+}

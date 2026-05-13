@@ -1,0 +1,11 @@
+{
+  "domain": "inventree_custom",
+  "name": "InvenTree Custom",
+  "version": "1.0.0",
+  "documentation": "https://github.com/inventree/inventree",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}

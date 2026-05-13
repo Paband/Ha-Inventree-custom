@@ -1,0 +1,7 @@
+{
+  "name": "InvenTree Custom",
+  "description": "Track individual parts and stock levels from your InvenTree instance, with low stock alerts.",
+  "render_readme": true,
+  "homeassistant": "2023.1.0",
+  "iot_class": "local_polling"
+}
